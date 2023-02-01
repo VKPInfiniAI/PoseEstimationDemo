@@ -23,9 +23,6 @@ while True:
             cx, cy = int(lm.x * w) , int(lm.y * h)
             cv2.circle(img, (cx,cy), 5, (255,0,0), cv2.FILLED) 
 
-
-
-
     currentTime = time.time()
     fps = 1 / (currentTime - previousTime)
     previousTime = currentTime
